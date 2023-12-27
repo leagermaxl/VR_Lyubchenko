@@ -62,9 +62,9 @@ Material:
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
-    - _Depth: 0.02
+    - _Depth: -0.20128241
     - _DepthOffsetEnable: 0
-    - _Displacment: 1
+    - _Displacment: 1.164433
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
@@ -80,7 +80,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _Smoothenes: 0.072
-    - _SpeedWave: 0.015
+    - _SpeedWave: 0.05311615
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0

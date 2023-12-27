@@ -107,4 +107,8 @@ public class MeshGenerator : MonoBehaviour
         UpdateMesh();
 
     }
+    public static float GetHeight(Vector3 position, float scaleNoise = 10f)
+    {
+        return Mathf.PerlinNoise(position.x * (1 / scaleNoise), position.z * (1 / scaleNoise)) * position.y;
+    }
 }
